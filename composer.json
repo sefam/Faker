@@ -1,5 +1,5 @@
 {
-    "name": "fzaninotto/faker",
+    "name": "sefam/faker",
     "type": "library",
     "description": "Faker is a PHP library that generates fake data for you.",
     "keywords": [
@@ -10,7 +10,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "François Zaninotto"
+            "name": "François Zaninotto",
+            "name": "Valentin Bastien"
         }
     ],
     "require": {
