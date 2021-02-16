@@ -8,10 +8,10 @@ class Internet extends Base
     protected static $tld = array('com', 'com', 'com', 'com', 'com', 'com', 'biz', 'info', 'net', 'org');
 
     protected static $userNameFormats = array(
-        '{{lastName}}.{{firstName}}',
-        '{{firstName}}.{{lastName}}',
-        '{{firstName}}##',
-        '?{{lastName}}',
+        '{{lastName}}.{{firstName}}####',
+        '{{firstName}}.{{lastName}}####',
+        '{{firstName}}#####',
+        '?{{lastName}}#####',
     );
     protected static $emailFormats = array(
         '{{userName}}@{{domainName}}',
